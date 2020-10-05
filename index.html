@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirma Task</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+      <h1>Text File Reader</h1>
+      <h2>Calculate pair of employees, that have worked the longes together.</h2>
+      
+        <div>
+        <span>Select a text file:</span>
+        <input type="file" id="file-input" accept=".csv, text/plain">
+        </div>
+        <div id="display-area">
+        </div>
+        <table id="data-table" role="grid" class="hidden">
+            <tbody>
+                <tr id="table-headers">
+                    <th>
+                        Employee One ID
+                    </th>
+                    <th>
+                        Employee Two ID
+                    </th>
+                    <th>
+                        Project ID
+                    </th>
+                    <th>
+                        Days worked
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
